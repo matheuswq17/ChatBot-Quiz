@@ -145,6 +145,8 @@ quiz_perguntas_tecnologia_invencoes = [
 
 # Variável para armazenar o estado dos usuários (por exemplo, qual pergunta do quiz estão)
 estado_usuarios = {}
+# Variável para armazenar mensagens processadas
+mensagens_processadas = set()
 
 # Respostas para acertos e erros
 mensagens_acerto = [
@@ -182,6 +184,12 @@ def receive_message():
         changes = data['entry'][0]['changes'][0]['value']
         if 'messages' in changes:
             message = changes['messages'][0]
+            message_id = message['id']
+
+            # Verifica se a mensagem já foi processada
+            if message_id in mensagens_processadas:
+                return "Mensagem já processada", 200
+            mensagens_processadas.add(message_id)
 
             # Verifica se a mensagem é do tipo "text" antes de continuar
             if message['type'] == 'text':
