@@ -13,31 +13,31 @@ quiz_perguntas_cultura_pop = [
         "pergunta": "Qual é o nome do personagem principal da série 'Breaking Bad'?",
         "opcoes": ["1. Jesse Pinkman", "2. Walter White", "3. Saul Goodman", "4. Hank Schrader"],
         "resposta_correta": "2",
-        "emojis": "🎬👨‍🔬💊"
+        "emojis": "🎮👨‍🔬💪"
     },
     {
         "pergunta": "Qual é o nome da princesa no filme 'Cinderela'?",
         "opcoes": ["1. Ariel", "2. Bela", "3. Cinderela", "4. Aurora"],
         "resposta_correta": "3",
-        "emojis": "👸✨🎀"
+        "emojis": "👸✨💖"
     },
     {
         "pergunta": "Em qual filme encontramos o personagem Jack Sparrow?",
         "opcoes": ["1. Harry Potter", "2. Piratas do Caribe", "3. Indiana Jones", "4. O Senhor dos Anéis"],
         "resposta_correta": "2",
-        "emojis": "🏴‍☠️⚓️🌊"
+        "emojis": "🏴‍☠️🛥️🌊"
     },
     {
         "pergunta": "Quem interpreta o Homem de Ferro no universo da Marvel?",
         "opcoes": ["1. Chris Evans", "2. Robert Downey Jr.", "3. Mark Ruffalo", "4. Chris Hemsworth"],
         "resposta_correta": "2",
-        "emojis": "🤖🧠💥"
+        "emojis": "🤖💪💥"
     },
     {
         "pergunta": "Qual é a casa de Harry Potter conhecida por sua coragem?",
         "opcoes": ["1. Sonserina", "2. Corvinal", "3. Grifinória", "4. Lufa-Lufa"],
         "resposta_correta": "3",
-        "emojis": "🦁🏰⚡"
+        "emojis": "🦧🏰💡"
     }
 ]
 
@@ -47,31 +47,31 @@ quiz_perguntas_super_herois = [
         "pergunta": "Qual é o alter ego do Superman?",
         "opcoes": ["1. Bruce Wayne", "2. Clark Kent", "3. Peter Parker", "4. Tony Stark"],
         "resposta_correta": "2",
-        "emojis": "🦸‍♂️🦸‍♀️🌍"
+        "emojis": "🧙‍♂️🧙‍♀️🌍"
     },
     {
         "pergunta": "Qual super-herói é conhecido como o 'Cavaleiro das Trevas'?",
         "opcoes": ["1. Batman", "2. Superman", "3. Homem-Aranha", "4. Flash"],
         "resposta_correta": "1",
-        "emojis": "🦇🌃🖤"
+        "emojis": "🖇🌃🖤"
     },
     {
         "pergunta": "Qual é o nome verdadeiro do Homem-Aranha?",
         "opcoes": ["1. Tony Stark", "2. Steve Rogers", "3. Peter Parker", "4. Bruce Banner"],
         "resposta_correta": "3",
-        "emojis": "🕷️🕸️🏙️"
+        "emojis": "🕷️🕸️🌇"
     },
     {
         "pergunta": "Qual super-heroína é uma amazona e usa um laço da verdade?",
         "opcoes": ["1. Viúva Negra", "2. Mulher-Maravilha", "3. Feiticeira Escarlate", "4. Capitã Marvel"],
         "resposta_correta": "2",
-        "emojis": "👑🗡️💫"
+        "emojis": "👑💖"
     },
     {
         "pergunta": "Qual super-herói tem um martelo mágico chamado Mjölnir?",
         "opcoes": ["1. Thor", "2. Loki", "3. Capitão América", "4. Hulk"],
         "resposta_correta": "1",
-        "emojis": "⚡🔨🌩️"
+        "emojis": "⚡️🔨"
     }
 ]
 
@@ -81,31 +81,31 @@ quiz_perguntas_videogames = [
         "pergunta": "Qual foi o primeiro console de videogame lançado comercialmente?",
         "opcoes": ["1. Atari 2600", "2. Magnavox Odyssey", "3. NES", "4. Sega Genesis"],
         "resposta_correta": "2",
-        "emojis": "🎮📜🕹️"
+        "emojis": "🎱💻"
     },
     {
         "pergunta": "Qual empresa criou o jogo 'Super Mario'?",
         "opcoes": ["1. Sega", "2. Atari", "3. Nintendo", "4. Sony"],
         "resposta_correta": "3",
-        "emojis": "🍄👨‍🎤⭐"
+        "emojis": "🍍👨‍🎤"
     },
     {
         "pergunta": "Qual console popularizou o uso de CDs para jogos?",
         "opcoes": ["1. PlayStation", "2. Nintendo 64", "3. Sega Saturn", "4. Xbox"],
         "resposta_correta": "1",
-        "emojis": "💿🎮📀"
+        "emojis": "💽🎮"
     },
     {
         "pergunta": "Qual franquia de jogos é conhecida pela frase 'Hadouken'?",
         "opcoes": ["1. Mortal Kombat", "2. Street Fighter", "3. Tekken", "4. King of Fighters"],
         "resposta_correta": "2",
-        "emojis": "👊🔥🎯"
+        "emojis": "✊🎉"
     },
     {
         "pergunta": "Qual jogo é considerado o primeiro RPG eletrônico?",
         "opcoes": ["1. Final Fantasy", "2. Dragon Quest", "3. The Legend of Zelda", "4. Ultima"],
         "resposta_correta": "4",
-        "emojis": "🛡️🗡️👾"
+        "emojis": "🛡️🤖"
     }
 ]
 
@@ -115,31 +115,31 @@ quiz_perguntas_tecnologia_invencoes = [
         "pergunta": "Quem inventou a lâmpada elétrica?",
         "opcoes": ["1. Nikola Tesla", "2. Thomas Edison", "3. Alexander Graham Bell", "4. Benjamin Franklin"],
         "resposta_correta": "2",
-        "emojis": "💡🔧🔋"
+        "emojis": "💡🔧"
     },
     {
         "pergunta": "Qual foi o primeiro meio de transporte motorizado?",
         "opcoes": ["1. Avião", "2. Bicicleta", "3. Automóvel", "4. Trem a vapor"],
         "resposta_correta": "3",
-        "emojis": "🚗🛤️🚂"
+        "emojis": "🚗"
     },
     {
         "pergunta": "Quem é o inventor do telefone?",
         "opcoes": ["1. Thomas Edison", "2. Alexander Graham Bell", "3. Nikola Tesla", "4. Guglielmo Marconi"],
         "resposta_correta": "2",
-        "emojis": "📞🔊📠"
+        "emojis": "📞"
     },
     {
         "pergunta": "Qual foi o primeiro navegador da internet amplamente utilizado?",
         "opcoes": ["1. Internet Explorer", "2. Netscape Navigator", "3. Mozilla Firefox", "4. Google Chrome"],
         "resposta_correta": "2",
-        "emojis": "🌐💻📁"
+        "emojis": "🌐"
     },
     {
         "pergunta": "Quem inventou o avião?",
         "opcoes": ["1. Irmãos Wright", "2. Santos Dumont", "3. Leonardo da Vinci", "4. Charles Lindbergh"],
         "resposta_correta": "1",
-        "emojis": "✈️🛠️🌍"
+        "emojis": "✈️"
     }
 ]
 
@@ -250,6 +250,10 @@ def receive_message():
                         estado_usuarios[phone_number] = {"pergunta_atual": 0, "pontuacao": 0, "quiz": quiz_perguntas_tecnologia_invencoes}
                         enviar_proxima_pergunta(phone_number)
 
+                    elif message_text == "5":
+                        # Encerrar a conversa
+                        send_message(phone_number, "Obrigado por utilizar o chatbot! Se precisar de algo mais, estarei aqui. 👋")
+
                     else:
                         send_message(phone_number, "🤖Desculpe, não entendi sua mensagem. Digite 'menu' para ver as opções🤖")
 
@@ -295,9 +299,10 @@ def menu_principal():
         "Aqui você pode se divertir respondendo perguntas de cultura pop, super-heróis, sobre a história dos videogames, ou sobre tecnologias e invenções ao longo do tempo. 📚✨\n\n"
         "*Escolha uma das opções:*\n"
         "*1.* Fazer um quiz de cultura pop 🎉\n"
-        "*2.* Fazer um quiz de super-heróis 🦸‍♂️🦸‍♀️\n"
-        "*3.* Fazer um quiz sobre a história dos videogames 🎮📜\n"
-        "*4.* Fazer um quiz sobre tecnologias e invenções ao longo do tempo 💡🔧"
+        "*2.* Fazer um quiz de super-heróis 🧙‍♂️🧙‍♀️\n"
+        "*3.* Fazer um quiz sobre a história dos videogames 🎮📚\n"
+        "*4.* Fazer um quiz sobre tecnologias e invenções ao longo do tempo 💡🔧\n"
+        "*5.* Encerrar a conversa 👋"
     )
 
 if __name__ == '__main__':
