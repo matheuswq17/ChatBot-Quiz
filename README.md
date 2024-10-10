@@ -71,9 +71,9 @@ Quando o usuário envia uma mensagem inicial como "menu" ou "iniciar", o chatbot
 
 ## Estrutura do Código
 **Principais Componentes do Código**
-    Flask: Utilizado para criar um servidor web que recebe e responde às requisições enviadas pelo WhatsApp.
-    Ngrok: Utilizado para expor o servidor local a uma URL pública, permitindo que o webhook da API do WhatsApp consiga se comunicar com o servidor.
-    requests: Utilizado para enviar mensagens de volta ao WhatsApp, realizando requisições HTTP para a API do WhatsApp Cloud.
+    Flask: Utilizado para criar um servidor web que recebe e responde às requisições enviadas pelo WhatsApp. 
+    Ngrok: Utilizado para expor o servidor local a uma URL pública, permitindo que o webhook da API do WhatsApp consiga se comunicar com o servidor. 
+    requests: Utilizado para enviar mensagens de volta ao WhatsApp, realizando requisições HTTP para a API do WhatsApp Cloud. 
 
 **Funções Importantes**
     verify_webhook(): Responsável por verificar a URL do webhook quando configurada no painel da Meta.
