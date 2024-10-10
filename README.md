@@ -83,3 +83,60 @@ Quando o usuário envia uma mensagem inicial como "menu" ou "iniciar", o chatbot
     enviar_proxima_pergunta(): Envia a próxima pergunta do quiz.
     send_message(): Função genérica para enviar mensagens para o usuário via API do WhatsApp.
     menu_principal(): Gera a mensagem do menu principal para o usuário.
+
+## Como Executar o Chatbot
+1. **Ative o Ambiente Virtual**:
+    ```bash
+    # Windows
+    .\venv\Scripts\activate
+    # Linux/macOS
+    source venv/bin/activate
+
+2. **Execute o Servidor Flask**:
+    ```bash
+    python app.py
+
+3. **Ngrok:** Em uma nova janela de terminal, execute o comando do Ngrok:
+    ```bash
+    ngrok http 5000
+
+Use a URL fornecida pelo Ngrok para configurar o webhook no Meta. Não esqueça de adicionar /webhook ao final da URL.
+
+4. **Teste no WhatsApp**: Utilize o número de teste configurado para enviar mensagens para o bot e testar as funcionalidades.
+
+## Testes e Validação
+**Token de Verificação**: Verifique se o VERIFY_TOKEN corresponde ao valor usado na configuração do webhook no Meta.
+**Logs do Flask**: Sempre monitore os logs do terminal onde o Flask está rodando para diagnosticar problemas.
+**Ngrok**: Certifique-se de que o ngrok está ativo e o link é válido. Se precisar reiniciar o ngrok, atualize o webhook com a nova URL.
+
+## Erros Comuns e Soluções
+1. **Erro 403 - Forbidden ao Verificar o Webhook**:
+    Certifique-se de que o VERIFY_TOKEN no código corresponde exatamente ao token fornecido na configuração do webhook.
+
+2. **Ngrok não Conecta**:
+    Verifique se o ngrok está em execução. Se precisar reiniciar, atualize o link do webhook no painel da Meta.
+
+3. **Token Expirado**:
+    Caso o token de acesso expire, obtenha um novo no painel de desenvolvedor da Meta e substitua no código.
+
+## Melhorias Futuras
+1. **Persistência de Dados**: Implementar uma base de dados para salvar os estados dos usuários, como progresso dos quizzes, pontuações, e histórico de interações.
+2. **Melhorias na Interface**: Adicionar mais tipos de mensagens, como imagens ou áudios, para tornar a interação mais envolvente.
+3. **Mais Quizzes**: Criar novos quizzes sobre diferentes temas para atrair diferentes tipos de público.
+4. **Automação do Setup**: Criar scripts de automação para facilitar a configuração e execução do chatbot para novos desenvolvedores.
+
+## Guia para Contribuidores
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor siga as etapas abaixo:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature ou correção.
+    ```bash
+    git checkout -b minha-nova-feature
+3. Faça commit das suas alterações.
+    ```bash
+    git commit -m "Adicionando uma nova feature"
+
+4. Faça o push para a branch.
+    ```bash
+    git push origin minha-nova-feature
+5. Abra uma Pull Request no GitHub.
