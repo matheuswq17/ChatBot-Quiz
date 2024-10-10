@@ -24,9 +24,7 @@ Para executar este projeto, você precisará dos seguintes itens:
 - Um número de teste do WhatsApp configurado na API do WhatsApp Cloud
 
 ## Configuração Inicial
-**Requests**: Uma biblioteca para fazer requisições HTTP, essencial para comunicar-se com a API do WhatsApp Cloud. Instale com:
-    ```bash
-    pip install requests
+**Requests**: Uma biblioteca para fazer requisições HTTP, essencial para comunicar-se com a API do WhatsApp Cloud. Instale com: pip install requests
 
 **Ngrok**: Ferramenta para expor o servidor Flask a uma URL pública, permitindo que o webhook da Meta consiga se conectar ao seu servidor local. Você pode baixar o Ngrok aqui. Depois de baixar, descompacte e adicione ao PATH do sistema.
 
