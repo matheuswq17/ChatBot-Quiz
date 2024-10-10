@@ -27,5 +27,5 @@ Para executar este projeto, você precisará dos seguintes itens:
 
 1. **Clone o Repositório**: Clone o projeto em sua máquina local.
    ```bash
-   git clone <URL-do-repositório>
+   git clone <https://github.com/matheuswq17/ChatBot-Quiz>
    cd whatsapp_chatbot
