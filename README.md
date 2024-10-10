@@ -140,3 +140,6 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, p
     ```bash
     git push origin minha-nova-feature
 5. Abra uma Pull Request no GitHub.
+
+## Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
